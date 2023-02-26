@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         if (args.length == 0){
-            throw new IOException("you didnt specify a file retard");
+            throw new IOException("Did not specify a file");
         }
         else if (args.length > 1){
             System.out.println("Warning: more than 1 file not supported at this point!");
